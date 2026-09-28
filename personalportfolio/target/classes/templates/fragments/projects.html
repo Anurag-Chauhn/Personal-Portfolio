@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">
+                    Explore some of my recent projects.
+                </p>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/images/loan-prediction.jpg" alt="Loan Approval Prediction System">
+                    <div class="project-overlay"></div>
+
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Pandas</span>
+                        <span class="project-tag">NumPy</span>
+                        <span class="project-tag">Scikit-learn</span>
+                        <span class="project-tag">Streamlit</span>
+                        <span class="project-tag">Machine Learning</span>
+                    </div>
+                </div>
+
+                <div class="project-content">
+                    <h3 class="project-title">Loan Approval Prediction System</h3>
+
+                    <p class="project-description">
+                        Developed a machine learning application to predict loan eligibility.
+                        Performed data preprocessing, feature engineering, and classification
+                        using KNN, Logistic Regression, and Naive Bayes. Evaluated the models
+                        using Accuracy, Precision, Recall, and F1-Score and deployed the
+                        application using Streamlit.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Anurag-Chauhn/Loan-Approval-Prediction-System-using-Machine-Learning" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+
+                        <a href="https://loan-approval-prediction-system-using-machine-learning-6vmgzda.streamlit.app/" class="project-link" target="_blank">
+                            Project Link <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/billing_webapp.jpg" alt="Freelance retail billing software">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">IntelliJ IDEA</span>
+                            <span class="project-tag">Full Stack</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Billing WebApp</h3>
+                        <p class="project-description">
+                            Full-stack retail billing web application for managing products, categories, users, orders, and payments. Built with Spring Boot and React.js, featuring JWT authentication, role-based access, Razorpay integration, and digital receipt generation.
+
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Anurag-Chauhn/Billing-WebApp" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://sweet-wisp-08cff7.netlify.app" class="project-link">
+                                Project Link <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+    </section>
+</th:block>
+</html>
